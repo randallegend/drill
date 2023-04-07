@@ -19,7 +19,11 @@ public class RegisterActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
-
+        edUsername = (TextInputEditText)findViewById(R.id.edUsername);
+        edEmail = (TextInputEditText)findViewById(R.id.edEmail);
+        edPassword = (TextInputEditText)findViewById(R.id.edPassword);
+        edCPassword = (TextInputEditText)findViewById(R.id.edCpassword);
+        registerBtn = (Button)findViewById(R.id.registerBtn);
         dbHelper = new DBHelper(this);
         registerBtn.setOnClickListener(new View.OnClickListener() {
             @Override

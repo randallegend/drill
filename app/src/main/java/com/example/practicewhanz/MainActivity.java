@@ -1,4 +1,4 @@
-package com.example.practicewhanz.DBHelper;
+package com.example.practicewhanz;
 
 import androidx.appcompat.app.AppCompatActivity;
 
